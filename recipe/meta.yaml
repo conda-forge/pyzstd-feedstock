@@ -1,5 +1,5 @@
 {% set name = "pyzstd" %}
-{% set version = "0.14.4" %}
+{% set version = "0.15.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 43df9c969b912874f78edf2d29b78710547bff89c0e61c63aaa8af5ab824588b
+  sha256: bf15a39cb3c9b662775e22ffa8c4da09fdde6a15ece5e0ed710b6d3b4329cf36
 
 build:
-  number: 2
+  number: 0
   script: {{ PYTHON }} -m pip install --install-option="--dynamic-link-zstd" -vv .
 
 requirements:
@@ -35,7 +35,7 @@ test:
 about:
   home: https://github.com/animalize/pyzstd
   doc_url: https://pyzstd.readthedocs.io/en/latest/
-  license:  BSD-3-Clause
+  license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
   summary: Python bindings to Zstandard (zstd) compression library
