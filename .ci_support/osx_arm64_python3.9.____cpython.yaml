@@ -18,5 +18,3 @@ python:
 - 3.9.* *_cpython
 target_platform:
 - osx-arm64
-zstd:
-- '1.5'
