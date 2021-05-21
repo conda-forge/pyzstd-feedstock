@@ -22,5 +22,3 @@ python:
 - 3.7.* *_73_pypy
 target_platform:
 - linux-aarch64
-zstd:
-- '1.5'

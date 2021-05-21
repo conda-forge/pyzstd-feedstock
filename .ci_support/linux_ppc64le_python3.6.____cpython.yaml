@@ -18,5 +18,3 @@ python:
 - 3.6.* *_cpython
 target_platform:
 - linux-ppc64le
-zstd:
-- '1.5'
