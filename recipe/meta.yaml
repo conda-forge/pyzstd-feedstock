@@ -25,6 +25,7 @@ requirements:
     - zstd ==1.5.0
   run:
     - python
+    - zstd ==1.5.0
 
 test:
   source_files:
