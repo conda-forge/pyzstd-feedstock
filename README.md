@@ -11,7 +11,7 @@ Summary: Python bindings to Zstandard (zstd) compression library
 
 Documentation: https://pyzstd.readthedocs.io/en/latest/
 
-Pyzstd module provides classes and functions for compressing and decompressing data, using Facebook's Zstandard (or zstd as short name) algorithm. The API is similar to Python's bz2/lzma/zlib module.
+Pyzstd module provides classes and functions for compressing and decompressing data, using Facebook's Zstandard (or zstd as short name) algorithm. The API is similar to Python's bz2/lzma/zlib modules.
 
 
 Current build status
