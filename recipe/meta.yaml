@@ -20,7 +20,7 @@ requirements:
     - {{ compiler('c') }}
   host:
     - python
-    - setuptools
+    - setuptools <60.0
     - pip
     - zstd
   run:
