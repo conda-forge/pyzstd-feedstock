@@ -11,7 +11,7 @@ source:
 
 build:
   number: 1
-  script: {{ PYTHON }} -m pip install --install-option="--dynamic-link-zstd" -vv .
+  script: {{ PYTHON }} -m pip install --config-settings="--build-option=--dynamic-link-zstd" -vv .
 
 requirements:
   build:
@@ -20,7 +20,6 @@ requirements:
     - {{ compiler('c') }}
   host:
     - python
-    - setuptools
     - pip
     - zstd
   run:
