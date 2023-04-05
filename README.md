@@ -1,11 +1,11 @@
-About pyzstd
-============
+About pyzstd-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyzstd-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/animalize/pyzstd
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyzstd-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python bindings to Zstandard (zstd) compression library
 
