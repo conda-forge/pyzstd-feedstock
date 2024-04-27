@@ -405,5 +405,5 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@Rogdham](https://github.com/Rogdham/)
+* [@rogdham](https://github.com/rogdham/)
 
