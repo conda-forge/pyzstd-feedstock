@@ -3,13 +3,13 @@ About pyzstd-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyzstd-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/animalize/pyzstd
+Home: https://github.com/Rogdham/pyzstd
 
 Package license: BSD-3-Clause
 
 Summary: Python bindings to Zstandard (zstd) compression library
 
-Documentation: https://pyzstd.readthedocs.io/en/latest/
+Documentation: https://pyzstd.readthedocs.io/
 
 Pyzstd module provides classes and functions for compressing and decompressing data, using Facebook's Zstandard (or zstd as short name) algorithm. The API style is similar to Python's bz2/lzma/zlib modules.
 
@@ -405,5 +405,5 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@animalize](https://github.com/animalize/)
+* [@Rogdham](https://github.com/Rogdham/)
 

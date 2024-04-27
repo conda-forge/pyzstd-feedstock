@@ -10,7 +10,7 @@ source:
   sha256: 83603a97fdbcf2139f475c940789f09e32703f931f29f4a8ddf3551e6700108b
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install --config-settings="--build-option=--dynamic-link-zstd" -vv .
 
 requirements:
@@ -32,8 +32,8 @@ test:
     - python -m unittest -v
 
 about:
-  home: https://github.com/animalize/pyzstd
-  doc_url: https://pyzstd.readthedocs.io/en/latest/
+  home: https://github.com/Rogdham/pyzstd
+  doc_url: https://pyzstd.readthedocs.io/
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
@@ -44,4 +44,3 @@ about:
 extra:
   recipe-maintainers:
     - rogdham
-    - animalize
