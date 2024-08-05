@@ -1,5 +1,5 @@
 {% set name = "pyzstd" %}
-{% set version = "0.16.0" %}
+{% set version = "0.16.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: fd43a0ae38ae15223fb1057729001829c3336e90f4acf04cf12ebdec33346658
+  sha256: ed50c08233878c155c73ab2622e115cd9e46c0f1c2e2ddd76f2e7ca24933f195
 
 build:
   number: 0
