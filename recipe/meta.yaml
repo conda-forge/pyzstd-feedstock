@@ -10,7 +10,7 @@ source:
   sha256: d84271f8baa66c419204c1dd115a4dec8b266f8a2921da21b81764fa208c1db6
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install --config-settings="--build-option=--dynamic-link-zstd" -vv .
 
 requirements:
