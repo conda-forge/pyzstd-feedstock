@@ -26,7 +26,7 @@ requirements:
     - zstd
   run:
     - python
-    - typing-extensions >=4.13.2
+    - typing-extensions >=4.13.2  # [py<313]
 
 test:
   source_files:
