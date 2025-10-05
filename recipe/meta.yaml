@@ -1,5 +1,5 @@
 {% set name = "pyzstd" %}
-{% set version = "0.17.0" %}
+{% set version = "0.18.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: d84271f8baa66c419204c1dd115a4dec8b266f8a2921da21b81764fa208c1db6
+  sha256: 81b6851ab1ca2e5f2c709e896a1362e3065a64f271f43db77fb7d5e4a78e9861
 
 build:
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install --config-settings="--build-option=--dynamic-link-zstd" -vv .
 
 requirements:
