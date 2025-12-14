@@ -1,5 +1,5 @@
 {% set name = "pyzstd" %}
-{% set version = "0.19.0" %}
+{% set version = "0.19.1" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 44e7b9be7b445aac742003ddee52ca31385d52dffb8c60adf633fad8e795f10d
+  sha256: 36723d3c915b3981de9198d0a2c82b2f5fe3eaa36e4d8d586937830a8afc7d72
 
 build:
   noarch: python
