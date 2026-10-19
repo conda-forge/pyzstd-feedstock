@@ -1,14 +1,14 @@
 {% set name = "pyzstd" %}
-{% set version = "0.19.1" %}
-{% set python_min = "3.10" %}
+{% set version = "0.20.0" %}
+{% set python_min = "3.11" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 36723d3c915b3981de9198d0a2c82b2f5fe3eaa36e4d8d586937830a8afc7d72
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: f6647f7e7026970551f97cafa2340f88b42cb25d0fcffcc3cd93dd78e5f27504
 
 build:
   noarch: python
